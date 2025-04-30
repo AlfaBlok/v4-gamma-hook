@@ -6,7 +6,7 @@ This repository contains research exploring a dynamic fee mechanism for Uniswap 
 
 The core of this research is documented in the following markdown file:
 
-*   **[`src/V4_Gamma_Hook.markdown`](doc/V4_Gamma_Hook.markdown)**: This document details the "Gamma Hook" concept, derives the dynamic fee structure ($f = \frac{r}{1 + r}$), and presents simulation results comparing its performance against traditional V2 pools. It explores the potential for eliminating IL and even achieving positive gamma ("Impermanent Gain").
+*   **[`src/V4_Gamma_Hook.markdown`](docs/V4_Gamma_Hook.markdown)**: This document details the "Gamma Hook" concept, derives the dynamic fee structure ($f = \frac{r}{1 + r}$), and presents simulation results comparing its performance against traditional V2 pools. It explores the potential for eliminating IL and even achieving positive gamma ("Impermanent Gain").
 
 ## Simulation & Analysis
 
