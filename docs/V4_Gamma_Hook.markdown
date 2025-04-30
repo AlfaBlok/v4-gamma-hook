@@ -126,9 +126,11 @@ For orders ≥50% of reserves, the fee exceeds the order size, creating a defens
 ![Calculation Example](../plots/Picture10.png "Calculation Example")
 
 ### Fee Comparison
-![Calculation Example](../plots/Picture111.png "Calculation Example")
+![Calculation Example](../plots/Picture111.png "Calculation Example") <br>
 Looking at broad ranges Gamma pools are generally more expensive.
+
 But there is a narrow range in which gamma pools are cheaper than flat fee pools:
+
 ![Calculation Example](../plots/Picture12.png "Calculation Example")
 In the case of 0,3% pools, unsurprisingly the threshold happens at 0,3%.
 
