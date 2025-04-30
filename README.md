@@ -29,4 +29,4 @@ This is currently a research exploration. The concepts and results are presented
 
 ## License
 
-[MIT License](LICENSE) 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
