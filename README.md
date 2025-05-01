@@ -26,6 +26,14 @@ The analysis presented in the markdown document is supported by simulations code
 
 This is currently a research exploration. The concepts and results are presented in the linked markdown file and notebook.
 
+## Contribute
+
+Please feel free to contribute to the project and participate in the research. Planning to use Github native tooling around the repo for discussions, issues, etc.
+
+## Acknowledgments
+
+Special thanks to [oktep](https://github.com/oktep) for his support and help on this project. He helped inspire this  becoming a possible project for the Atrium Uniswap V4 Incubator Program and shared insightful feedback on the earliest versions of this research.
+
 
 ## License
 
