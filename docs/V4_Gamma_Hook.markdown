@@ -136,9 +136,8 @@ In the case of 0,3% pools, unsurprisingly the threshold happens at 0,3%.
 
 We can generalize: Gamma pools are cheaper than flat fee pools, when the order relative to the pool size is lower than the flat fee.
 
-![Calculation Example](../plots/Picture13.png "Calculation Example")
 
-We must evaluate what are historical swaps relative to reserves.
+We must evaluate what are historical swaps relative to reserves, to see how they compare to the existing flat fee pools available.
 
 <br>
 
