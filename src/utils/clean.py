@@ -164,7 +164,7 @@ def get_symbol(pool_name):
     else:
         return 'circle' # Default filled circle
 
-def get_xy_fig(joint_df, x_col, y_col, title, xaxis_title, yaxis_title):
+def get_xy_fig(joint_df, x_col, y_col, title, xaxis_title=None, yaxis_title=None):
 
     pool_names = joint_df['pool_name'].unique()
     colors = px.colors.qualitative.Plotly # Use Plotly Express's default color sequence
@@ -202,6 +202,11 @@ def get_xy_fig(joint_df, x_col, y_col, title, xaxis_title, yaxis_title):
                     size=7 # Make symbols a bit larger
                 )
         ))
+
+    if xaxis_title is None:
+        xaxis_title = x_col
+    if yaxis_title is None:
+        yaxis_title = y_col
 
     fig.update_layout(
         title=title,

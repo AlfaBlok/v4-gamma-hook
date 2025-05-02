@@ -1,5 +1,11 @@
 class UniswapV3Pool:
-    def __init__(self, token0, token1, price_low, price_high, current_price, fee=0.003):
+    def __init__(self,params):
+        token0 = params['token0']
+        token1 = params['token1']
+        price_low = params['price_low']
+        price_high = params['price_high']
+        current_price = params['current_price']
+        fee = params['fee']
         self.sqrt_P = current_price ** 0.5
         self.sqrt_P_lower = price_low ** 0.5
         self.sqrt_P_upper = price_high ** 0.5
