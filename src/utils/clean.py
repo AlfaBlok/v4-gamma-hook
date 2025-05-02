@@ -3,8 +3,9 @@ import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
 from plotly.subplots import make_subplots
-from models.v2_pool import UniswapV2Pool
-from models.v4_gamma_pool import v4_gamma_hook_pool
+from src.models.v2_pool import UniswapV2Pool
+from src.models.v4_gamma_pool import v4_gamma_hook_pool
+import os # Make sure os is imported if not already
 
 def sweep_swap_amount_range(pool_instance, parameters):
     """
@@ -300,7 +301,11 @@ def get_3_plots(trade_simulation, title):
     return fig_combined
 
 def get_arb_usdc_historical_data():
-    path = "/Users/jordi/Documents/GitHub/no-gamma-hook-v4/data/swap_fee_data.csv"  
+    # Construct absolute path relative to this script's location
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.abspath(os.path.join(script_dir, '..', '..'))
+    path = os.path.join(project_root, "data", "swap_fee_data.csv")
+    print(f"Reading data from: {path}") # Optional: print path for verification
 
     df = pd.read_csv(path)
 

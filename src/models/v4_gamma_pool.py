@@ -1,4 +1,4 @@
-from models.v2_pool import UniswapV2Pool
+from src.models.v2_pool import UniswapV2Pool
 
 class v4_gamma_hook_pool:
     """
