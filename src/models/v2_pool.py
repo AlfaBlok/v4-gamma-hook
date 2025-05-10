@@ -21,6 +21,7 @@ class UniswapV2Pool:
         if not 0 <= fee_pct < 1:
              raise ValueError("Fee percentage must be between 0 and 1.")
 
+
         self.initial_x = float(initial_x)
         self.initial_y = float(initial_y)
         self.x = float(initial_x)

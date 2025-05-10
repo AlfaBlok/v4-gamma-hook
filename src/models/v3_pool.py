@@ -22,6 +22,8 @@ class UniswapV3Pool:
 
     def price(self):
         return self.sqrt_P ** 2  # token1 per token0
+    
+    
 
     def swap(self, amount_in, token_in_is_0):
         """
