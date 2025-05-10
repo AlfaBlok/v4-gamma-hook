@@ -2,6 +2,7 @@
 
 ## Summary
 This notebook shows research on a V4 Hook design that implements dynamic fees with the goal of preventing impermanent loss and achieving convexity for LPs.
+It is based off of this jupyter notebook: https://github.com/AlfaBlok/v4-gamma-hook/blob/main/src/notebook.ipynb
 
 ## Problem Statement
 Impermanent loss is a critical enemy of liquidity providers. It makes it hard for LPs to hedge their exposure. It results in lower liquidity and ultimately smaller pools and higher volatility. 
