@@ -32,7 +32,7 @@ Please feel free to contribute to the project and participate in the research. P
 
 ## Acknowledgments
 
-Special thanks to oktep for his support and help on this project. He helped inspire this becoming a possible project for the Atrium Uniswap V4 Incubator Program and shared insightful feedback on the earliest versions of this research.
+Special thanks Atrium Uniswap V4 Incubator Program and oktep for insightful feedback on the earliest versions of this research project.
 
 
 ## License

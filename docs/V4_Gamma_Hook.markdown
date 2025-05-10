@@ -1,14 +1,14 @@
 # V4 Gamma Hook (Draft v0)
 
-## Overview
-Avoid impermanent loss and achieve convexity.
+## Summary
+This notebook shows research on a V4 Hook design that implements dynamic fees with the goal of preventing impermanent loss and achieving convexity for LPs.
 
 ## Problem Statement
 Impermanent loss is a critical enemy of liquidity providers. It makes it hard for LPs to hedge their exposure. It results in lower liquidity and ultimately smaller pools and higher volatility. 
 
 
 ## Proposed Solution
-A V4 Hook with a dynamic fee that fully cancels out Impermanent Loss. This allows LPs to fully hedge their position, leading to more liquidity and lower volatility.
+A V4 Hook with a dynamic fee that fully cancels out Impermanent Loss. This would allow LPs to fully hedge their position and achieve delta neutrality more easily.
 <br>
 ![Calculation Example](../plots/img00.png "Calculation Example")
 ## Strategy
